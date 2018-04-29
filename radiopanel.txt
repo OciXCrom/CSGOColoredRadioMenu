@@ -1,0 +1,193 @@
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"
+	"Groups"
+	{
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"<font color='#FFFFFF'>Command Radio Message</font>"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"go"
+				{
+					"hotkey"	"1"
+					"label"	"<font color='#FFFF00'>Go!</font>"
+					"cmd"	"go"
+				}
+				
+				"fallback"
+				{
+					"hotkey"	"2"
+					"label"	"<font color='#FF9A00'>Fall Back</font>"
+					"cmd"	"fallback"
+				}
+				
+				"sticktog"
+				{
+					"hotkey"	"3"
+					"label"	"<font color='#00FF89'>Stick Together Team</font>"
+					"cmd"	"sticktog"
+				}
+				
+				"holdpos"
+				{
+					"hotkey"	"4"
+					"label"	"<font color='#0089FF'>Hold This Position</font>"
+					"cmd"	"holdpos"
+				}
+				
+				"followme"
+				{
+					"hotkey"	"5"
+					"label"	"<font color='#33BC09'>Follow Me</font>"
+					"cmd"	"followme"
+				}
+
+				"coverme"
+				{
+					"hotkey"	"6"
+					"label"	"<font color='#F0A753'>Cover Me</font>"
+					"cmd"	"coverme"
+				}
+
+				"regroup"
+				{
+					"hotkey"	"7"
+					"label"	"<font color='#579FC9'>Regroup Team</font>"
+					"cmd"	"regroup"
+				}
+			}
+		}
+		
+		"group"
+		{
+			"hotkey"	"2"
+			"title"	"<font color='FFFFFF'>Standard Radio Commands</font>"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"<font color='#00FF00'>Affirmative/Roger</font>"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"<font color='#FF0000'>Negative</font>"
+					"cmd"	"negative"
+				}
+				
+				"cheer"
+				{
+					"hotkey"	"3"
+					"label"	"<font color='#00FFF7'>Cheer!</font>"
+					"cmd"	"cheer"
+				}
+				
+				"compliment"
+				{
+					"hotkey"	"4"
+					"label"	"<font color='#ABFF00'>Compliment</font>"
+					"cmd"	"compliment"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"5"
+					"label"	"<font color='#DE00FF'>Thanks</font>"
+					"cmd"	"thanks"
+				}
+				
+				"takingfire"
+				{
+					"hotkey"	"6"
+					"label"	"<font color='#FFA200'>Taking Fire, Need assistance</font>"
+					"cmd"	"takingfire"
+				}
+				
+				"enemydown"
+				{
+					"hotkey"	"7"
+					"label"	"<font color='#BF0040'>Enemy Down</font>"
+					"cmd"	"enemydown"
+				}
+			}
+		}
+		
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"<font color='#FFFFFF'>Report Radio Message</font>"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"enemyspot"
+				{
+					"hotkey"	"1"
+					"label"	"<font color='#FFA200'>Enemy Spotted</font>"
+					"cmd"	"enemyspot"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"2"
+					"label"	"<font color='#0089FF'>Need Backup</font>"
+					"cmd"	"needbackup"
+				}
+				
+				"takepoint"
+				{
+					"hotkey"	"3"
+					"label"	"<font color='#FFE600'>You Take the Point</font>"
+					"cmd"	"takepoint"
+				}
+				
+				"sectorclear"
+				{
+					"hotkey"	"4"
+					"label"	"<font color='#60BA11'>Sector Clear</font>"
+					"cmd"	"sectorclear"
+				}
+				
+				"inposition"
+				{
+					"hotkey"	"5"
+					"label"	"<font color='#1149BA'>I'm in Position</font>"
+					"cmd"	"inposition"
+				}
+				
+				"reportingin"
+				{
+					"hotkey"	"6"
+					"label"	"<font color='#0ADED7'>Reporting In</font>"
+					"cmd"	"reportingin"
+				}
+				
+				"report"
+				{
+					"hotkey"	"7"
+					"label"	"<font color='#DEC20A'>Report In, Team</font>"
+					"cmd"	"report"
+				}
+
+				"getout"
+				{
+					"hotkey"	"8"
+					"label"	"<font color='#6E32C9'>She's gonna Blow!</font>"
+					"cmd"	"getout"
+				}			
+			}
+		}
+	}
+}
